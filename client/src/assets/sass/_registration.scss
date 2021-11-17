@@ -1,0 +1,68 @@
+form {
+	max-width: 350px;
+	margin: 50px auto;
+	font-family: 'Roboto', sans-serif;
+
+	fieldset {
+		display: flex;
+		flex-direction: column;
+		border: none;
+		border-radius: 0 0 20px 20px;
+		background-color: #ffc06e;
+
+		legend {
+			font-size: 2rem;
+			font-weight: 300;
+			margin: 0 10px;
+			padding: 0 10px;
+			border-radius: 5px;
+			background-color: #533535;
+			color: white;
+		}
+
+		label {
+			margin: 5px 20px 0 20px;
+		}
+
+		input {
+			margin: 5px 20px;
+			height: 30px;
+			background-color: white;
+			border: none;
+			text-indent: 5px;
+			border-radius: 5px;
+		}
+
+		// gender ----------------------------
+		.radio {
+			display: flex;
+			justify-content: center;
+
+			.radioInput {
+				margin: 0 10px;
+			}
+
+			.radioLabel {
+				margin: 0 5px 0 0;
+				align-self: center;
+			}
+		}
+	}
+
+	// register button --------------------
+	.register {
+		width: 100px;
+		border: none;
+		background-color: white;
+		cursor: pointer;
+		border-radius: 5px;
+		align-self: center;
+		margin: 10px 0;
+		font-size: 1rem;
+
+		&:hover {
+			background-color: #533535;
+			color: white;
+		}
+	}
+}
